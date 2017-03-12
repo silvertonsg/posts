@@ -1,0 +1,2 @@
+Recentemente tive um problema, quando tentava iniciar qualquer sistema operacional na virtual box (no meu caso Ubuntu 12.04) o computar reiniciava sozinho. Isso acontecia com uma virtual box no Fedora 17 quanto no Ubuntu 12.04.
+Descobri com Caio Gallo e Bruno Gualda  que no meu caso, quando não habilitava o suporte a virtualização do processador na BIOS, o PC reiniciava quando a virtual box exigia mais processamento. Então para resolver o problema, foi só entrar na BIOS do PC e habilitar suporte a virtualização do processador e problema resolvido.
